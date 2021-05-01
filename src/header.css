@@ -1,0 +1,35 @@
+.header {
+  height: 60px;
+  display: flex;
+  background-color: #4c6b94;
+  position: sticky;
+  align-items: center;
+  top: 0;
+  z-index: 100;
+  display: columns;
+  justify-content: space-around;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.option {
+  background-color: #96b0d1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
