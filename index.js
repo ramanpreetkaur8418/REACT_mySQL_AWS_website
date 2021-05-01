@@ -16,9 +16,9 @@ class Database {
   constructor() {
     this.connection = mysql.createConnection({
       host: "test-db-2021.c4hykugf5a0o.us-west-1.rds.amazonaws.com",
-      user: "admin",
-      password: "march_21_CSC_174",
-      database: "test1",
+      user: "USERNAME",     //removed for security
+      password: "PASSWORD", //removed for security
+      database: "DB_NAME",  //removed for security
     });
   }
   //query is used for making queries to send out to the database
